@@ -1,0 +1,138 @@
+
+/*  */
+/* mobile first */
+/* */
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* reset headings and lits styling */
+h1, h2, h3, h4, h5, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap li {
+    padding: 15px;
+    margin: 15px;
+    list-style: none;
+    font-size: 2.6em;
+    border: solid 1px sandybrown;
+    border-radius: 30px;
+}
+
+.facts{
+    font-size: 3em;
+    border: none;
+}
+
+.wrap ul{
+    display: block;
+}
+
+ul.nav{
+    list-style: none;
+    text-align: center;
+    padding: 40px;
+    background-color: sandybrown;
+}
+
+.nav li{
+    margin: 40px;
+    font-size: 3em;
+    display: inline;
+}
+
+.logo{
+    font-size: 4em;
+    padding: 50px;
+    text-align: center;
+    color: sandybrown;
+}
+
+.wrap{
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+}
+
+.wrap div{
+    margin-bottom: 50px;
+    border: solid 1px sandybrown;
+    border-radius: 30px;
+}
+
+
+.container{
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 2.6em;
+}
+
+.wrap img{
+    border-radius: 2em;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+
+.wrap em{
+    font-size: 4em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+a:hover{
+    color:sandybrown;
+}
+
+span{
+    display: block;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 720px) {
+    .wrap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .wrap div{
+        width: 300px;
+    }
+
+    li {
+        list-style: none;
+        font-size: 2.4em;
+    }
+
+    .facts{
+        font-size: 5em;
+        border: none;
+    }
+
+    .wrap div{
+        margin: 40px;
+        border: solid 1px sandybrown;
+        border-radius: 30px;
+    }
+  }
